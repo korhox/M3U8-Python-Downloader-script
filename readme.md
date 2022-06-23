@@ -2,13 +2,13 @@
 This script is made to download multiple m3u8 playlist files to mp4 files.
 
 # Depenencies
-* (Python)[https://www.python.org/]
-* (FFmpeg bin)[https://ffmpeg.org/] (must be in path)
-* (ffmpeg-python)[https://github.com/kkrffmpeg-pythonoening/ffmpeg-python]
-* (simple-calk)[https://github.com/olsonpm/py_simple-chalk]
+* [Python](https://www.python.org/) Must be in path!
+* [FFmpeg](https://ffmpeg.org/) Must be in path!
+* [ffmpeg-python](https://github.com/kkrffmpeg-pythonoening/ffmpeg-python) (pip module)
+* [simple-calk](https://github.com/olsonpm/py_simple-chalk) (pip module)
 
 # Installation
-First of all, you need to have (Python)[https://www.python.org/] and (FFmpeg bin)[https://ffmpeg.org/] installed on your computer. Install them according to their documentations and ensure they are in your PATH/environment variables.
+First of all, you need to have [Python](https://www.python.org/) and [FFmpeg](https://ffmpeg.org/) installed on your computer. Install them according to their documentations and ensure they are in your PATH/environment variables.
 
 Install Python depedencies:
 ```
@@ -22,7 +22,7 @@ Title,URL
 This is an example title,https://cdn.xyz.example.com/
 ```
 
-Open the src directory in your Terminal app (cmd or powershell on Windows) and run command:
+Open the src directory in your Terminal app cmd or powershell on Windows and run command:
 ```
 python main.py
 ```
