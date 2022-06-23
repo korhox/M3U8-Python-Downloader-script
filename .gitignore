@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # Project files
-list.txt
+links.txt
+
+# mp4 files
+*.mp4
