@@ -36,8 +36,8 @@ for i, line in enumerate(lines):
 
     try:
         line = line.split(",")
-        title = line[0]
-        link = line[1]
+        title = line[0].strip()
+        link = line[1].strip()
     except:
         print(red.bold("Invalid line formatting on line " + white(str(i+1)) + ". Skipping..."))
         errors += 1
