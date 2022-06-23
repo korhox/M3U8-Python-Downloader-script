@@ -18,7 +18,7 @@ pip install -r requirements.txt
 # Usage
 create file `links.txt` to the src directory where each line is a single link. Before the link, there is the title of the final mp4 file name. The title and the link are separated by a comma. Example:
 ```
-Title,URL
+Title for the file,https://example.com/
 This is an example title,https://cdn.xyz.example.com/
 ```
 
